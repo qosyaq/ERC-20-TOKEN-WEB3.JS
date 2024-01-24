@@ -18,3 +18,21 @@ SENDER_PRIVATE_KEY=<your_ethereum_wallet_private_key>
 ## Compile your solidity code:
 Take ABI of your contract and create JSON file.
 
+## Execution Script
+![](function.png)
+
+## Output
+![](result.png)
+
+# Example
+Imagine Web3.js as a bridge between your wallet and the smart contracts living on a blockchain like Ethereum. It is a set of tools that allow you to:
+
+1. Call Contract Functions: For example, you could call a function to buy tokens, transfer them to someone else, or even vote on a proposal within the contract.
+
+2. Access Data: Web3.js lets you retrieve data stored within the smart contract. It could include details like who sent tokens to whom, the amount of sent and etc.
+
+3.  Send Tokens via Web3.js: This is similar to making a payment, but using tokens instead of currency.
+
+There are some functions:  latestTransferHumanReadable(), getTransactionSender(), getTransactionRetriever(), transfer(), balanceOf() and etc
+
+
